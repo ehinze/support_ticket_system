@@ -137,12 +137,11 @@ export default function Login() {
                                 <input type="checkbox" className="mr-2" />
                                 Remember me
                             </label>
-                            <a
-                                href="#"
-                                className="text-[#3179bc] text-sm hover:underline font-[DM Sans]"
-                            >
+                            <Link to="/register" className="text-[#3179bc] text-sm hover:underline font-[DM Sans]">
+                            
                                 Forgot Password?
-                            </a>
+                           
+                            </Link>
                         </div>
                         {passwordError && <p className="text-red-500 text-sm mb-2 font-[DM Sans]">{passwordError}</p>}
                         
